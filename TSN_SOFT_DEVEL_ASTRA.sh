@@ -4,7 +4,13 @@ sudo apt-get install git -y
 git config --global user.name "proffix4"
 git config --global user.email "proffix4@gmail.com"
 
-sudo apt install openjdk-8-jdk
+sudo apt install openjdk-8-jdk -y
+
+sudo apt install curl -y
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk install java 11.0.12-open
+sdk default java 11.0.12-open
 
 sudo apt install qemu-kvm android-tools-adb -y
 sudo adduser tsn kvm
