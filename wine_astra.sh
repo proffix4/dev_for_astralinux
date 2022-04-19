@@ -1,3 +1,4 @@
+#!/bin/sh
 sudo apt update
 sudo apt install wine ia32-libs zenity -y
 
