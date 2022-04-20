@@ -1,0 +1,9 @@
+sdk list java                  какие установлены версии (и есть версии при выключенном offline)
+sdk install java 11.0.12-open  установка нужной версии 
+sdk install java 18-open       установка нужной версии 
+sdk uninstall java 18-open     удаление нужной версии 
+sdk uninstall java 17.0.2-tem  удаление нужной версии 
+sdk default java 11.0.12-open  установка текущей версии по-умолчанию
+sdk current java               текущая версия
+sdk offline enable             включить автономный режим
+sdk offline disable            выключить автономный режим
