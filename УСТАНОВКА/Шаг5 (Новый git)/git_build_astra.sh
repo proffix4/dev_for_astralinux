@@ -1,3 +1,4 @@
+#!/bin/sh
 sudo apt-get install dh-autoreconf libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev -y
 sudo apt-get install asciidoc xmlto docbook2x -y
 sudo apt-get install install-info -y

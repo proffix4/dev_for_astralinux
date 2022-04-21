@@ -1,0 +1,14 @@
+   1. Установить пакет debian-archive-keyring:
+sudo apt install debian-archive-keyring -y
+sudo apt install apt-transport-https ca-certificates -y
+
+   2. Добавить описание репозиториев, например, в файл /etc/apt/sources.list:
+deb https://dl.astralinux.ru/astra/stable/2.12_x86-64/repository orel main contrib non-free
+
+https://dl.astralinux.ru/astra/stable/2.12_x86-64/repository/
+orel
+main contrib non-free
+
+   3. Обновить кеш пакетов:
+sudo apt-get update -y && sudo apt-get upgrade -y
+sudo apt autoremove -y

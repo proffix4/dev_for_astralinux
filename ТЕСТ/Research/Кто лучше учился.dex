@@ -1,0 +1,55 @@
+[vr_Main_Experts_Section]
+Theme=ORIX EXPERT
+ColCount=3
+RowCount=7
+[vr_Data]
+param_1=Варианты:
+param_2=Расчет,% : ->
+param_3=оценка по математике: [0..5]
+param_4=оценка по информатике: [0..5]
+param_5=оценка по физике: [0..5]
+param_6=оценка по химии: [0..5]
+param_7=оценка по черчению: [0..5]
+param_8=Петров Н.К.
+param_9=86,3
+param_10=5
+param_11=5
+param_12=3
+param_13=4
+param_14=3
+param_15=Сидоров К.М.
+param_16=88,8
+param_17=4
+param_18=5
+param_19=4
+param_20=5
+param_21=3
+[cr_Main_Experts_Section]
+Theme=Кто лучше учился ?
+ColCount=4
+RowCount=6
+[cr_Data]
+param_1=Критерии:
+param_2=1
+param_3=2
+param_4=3
+param_5=4
+param_6=5
+param_7=Название критерия
+param_8=оценка по математике
+param_9=оценка по информатике
+param_10=оценка по физике
+param_11=оценка по химии
+param_12=оценка по черчению
+param_13=Важность критерия
+param_14=2
+param_15=1
+param_16=3
+param_17=3
+param_18=5
+param_19=Предел
+param_20=5
+param_21=5
+param_22=5
+param_23=5
+param_24=5

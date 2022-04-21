@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name[ru_RU]=Cryptomator
+Categories=Utility;
+X-GNOME-FullName[ru_RU]=Cryptomator
+Comment[ru_RU]=
+Icon=/opt/cryptomator/cryptomator.png
+NoDisplay=false
+Exec=/opt/cryptomator/cryptomator.AppImage
+Path=
+Terminal=false
+X-GNOME-UsesNotifications=false
