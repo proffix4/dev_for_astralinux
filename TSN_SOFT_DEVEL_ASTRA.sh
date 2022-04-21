@@ -23,6 +23,9 @@ sudo usermod -aG plugdev $LOGNAME
 
 sudo apt install build-essential gdb default-jdk -y
 
+#sudo apt install python3.7
+#sudo apt install python3.7 python3-distutils
+
 sudo apt install python3 python3-pip python3-pyqt5 python3-pyqt5.qtsql qttools5-dev-tools build-essential python3-tk python3-matplotlib -y
 sudo apt install pyqt5-dev-tools libgtk-3-dev -y
 sudo apt install python3-dev -y
@@ -40,3 +43,5 @@ python3 -m pip install PyQtWebEngine
 python3 -m pip install PyQt5-sip --upgrade
 
 # sudo apt-get install qt5*
+
+sudo ln -s /usr/lib/x86_64-linux-gnu/libxcb-util.so.0 /usr/lib/x86_64-linux-gnu/libxcb-util.so.1
