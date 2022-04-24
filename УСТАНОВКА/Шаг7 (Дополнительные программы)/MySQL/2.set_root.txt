@@ -3,10 +3,11 @@ sudo systemctl set-environment MYSQLD_OPTS="--skip-grant-tables"
 sudo systemctl start mysqld
 
 mysql -u root
-mysql> UPDATE mysql.user SET authentication_string = PASSWORD('PassW0Rd++')
-    -> WHERE User = 'root' AND Host = 'localhost';
-mysql> FLUSH PRIVILEGES;
-mysql> quit
+UPDATE mysql.user SET authentication_string = PASSWORD('PassW0Rd++') WHERE User = 'root' AND Host = 'localhost';
+UPDATE mysql.user SET plugin = 'mysql_native_password' WHERE user = 'root';
+FLUSH PRIVILEGES;
+SELECT user,authentication_string,plugin,host FROM mysql.user;
+quit
 
 systemctl stop mysqld
 sudo systemctl unset-environment MYSQLD_OPTS

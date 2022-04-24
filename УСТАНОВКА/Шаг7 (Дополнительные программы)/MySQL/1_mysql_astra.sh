@@ -12,3 +12,8 @@ sudo systemctl enable mysql
 
 sudo mysql_secure_installation
 #	PassW0Rd++
+n
+n
+n
+n
+n
