@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.3
+Name=NCALayer
+Name[ru]=NCALayer
+GenericName=NCALayer
+GenericName[ru]=NCALayer
+Comment=NCALayer application
+Comment[ru]=Приложение для работы с ЭЦП
+Icon=ncalayer
+Type=Application
+Terminal=false
+Categories=Network;RemoteAccess
+Exec="/home/tsn/NCALayer/ncalayer.sh" --run

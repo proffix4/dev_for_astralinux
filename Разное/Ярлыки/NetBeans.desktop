@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name[ru_RU]=NetBeans
+Categories=Development;
+X-GNOME-FullName[ru_RU]=NetBeans
+Comment[ru_RU]=
+Icon=/opt/dev/netbeans/nb/netbeans.icns
+NoDisplay=false
+Exec=/opt/dev/netbeans/bin/netbeans
+Path=
+Terminal=false
+X-GNOME-UsesNotifications=false

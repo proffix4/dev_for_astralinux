@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=dosbox
+Name[ru]=dosbox
+Type=Application
+Exec=/usr/bin/dosbox
+MimeType=application/x-ms-dos-executable

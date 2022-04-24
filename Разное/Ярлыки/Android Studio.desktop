@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name[ru_RU]=Android Studio
+Categories=Development;
+X-GNOME-FullName[ru_RU]=Android Studio
+Comment[ru_RU]=
+Icon=/opt/dev/android-studio/bin/studio.svg
+NoDisplay=false
+Exec=/opt/dev/android-studio/bin/studio.sh
+Path=
+Terminal=false
+X-GNOME-UsesNotifications=false

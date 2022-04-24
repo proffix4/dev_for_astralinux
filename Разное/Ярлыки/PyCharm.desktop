@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name[ru_RU]=PyCharm
+Categories=Development;
+X-GNOME-FullName[ru_RU]=PyCharm
+Comment[ru_RU]=
+Icon=/opt/dev/pycharm/bin/pycharm.svg
+NoDisplay=false
+Exec=/opt/dev/pycharm/bin/pycharm.sh
+Path=
+Terminal=false
+X-GNOME-UsesNotifications=false

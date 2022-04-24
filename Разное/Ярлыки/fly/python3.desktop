@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=python3
+Name[ru]=python3
+Type=Application
+Exec=/usr/bin/python3
+MimeType=text/x-python

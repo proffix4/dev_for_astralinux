@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=wine
+Name[ru]=wine
+Type=Application
+Exec=/usr/bin/wine
+MimeType=application/x-ms-dos-executable

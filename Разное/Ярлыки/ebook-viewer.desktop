@@ -1,0 +1,15 @@
+[Desktop Entry]
+Exec=/opt/Calibre/ebook-viewer %f
+Icon=calibre-viewer
+MimeType=*/*
+Name=ebook-viewer
+Type=Application
+X-DDE-File-Manager-Custom-Open=application/epub+zip;application/x-fictionbook+xml
+Name[ru_RU]=ebook-viewer
+X-GNOME-FullName[ru_RU]=ebook-viewer
+Comment[ru_RU]=
+NoDisplay=false
+Path=
+Terminal=false
+X-GNOME-UsesNotifications=false
+Categories=Other;
