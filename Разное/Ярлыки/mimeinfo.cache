@@ -1,3 +1,5 @@
 [MIME Cache]
-application/x-ms-dos-executable=fly-wine.desktop;
+application/x-java-archive=run-jar.desktop;
+application/x-ms-dos-executable=fly-dosbox.desktop;fly-wine.desktop;
+text/x-python=fly-python3.desktop;
 x-scheme-handler/tg=appimagekit_b058f63a1f104d826d8ff842a23f89b7-Telegram_Desktop.desktop;
