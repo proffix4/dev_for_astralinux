@@ -1,0 +1,17 @@
+// File installed by postgresql-common. Currently not updated automatically,
+// but might be in future releases.
+//
+// We mark all PostgreSQL packages as NeverAutoRemove because otherwise apt
+// would remove the old postgresql-NN package when the "postgresql" meta
+// package changes its dependencies to a new version, rendering the old
+// database cluster inaccessible. As access to the cluster might depend on
+// other modules (like datatypes), we use a pretty wide pattern here. We might
+// tighten this to match only actually used PostgreSQL versions in the future.
+
+APT
+{
+  NeverAutoRemove
+  {
+    "^postgresql-";
+  };
+};

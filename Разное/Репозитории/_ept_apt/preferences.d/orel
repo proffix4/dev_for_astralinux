@@ -1,0 +1,3 @@
+Package: *
+Pin: release n=orel
+Pin-Priority: 900

@@ -1,0 +1,22 @@
+###   TeamViewer DEB repository list
+
+### NOTE: Manual changes to this file
+###        - prevent it from being updated by TeamViewer package updates
+###        - will be lost after using the 'teamviewer repo' command
+###       The original file can be restored with this command:
+###       cp /opt/teamviewer/tv_bin/script/teamviewer.list /etc/apt/sources.list.d/teamviewer.list
+###       which has the same effect as 'teamviewer repo default'
+
+### NOTE: It is preferred to use the following commands to edit this file:
+###       teamviewer repo                - show current repository configuration
+###       teamviewer repo default        - restore default configuration
+###       teamviewer repo disable        - disable the repository
+###       teamviewer repo stable         - make all regular TeamViewer packages available (default)
+###       teamviewer repo preview        - additionally, make feature preview packages available
+###       teamviewer repo development    - additionally, make the latest development packages available
+
+
+deb https://linux.teamviewer.com/deb stable main
+
+# deb https://linux.teamviewer.com/deb preview main
+# deb https://linux.teamviewer.com/deb development main
