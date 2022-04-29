@@ -5,7 +5,7 @@ sudo apt-get install git -y
 git config --global user.name "proffix4"
 git config --global user.email "proffix4@gmail.com"
 
-sudo apt install build-essential gdb openjdk-8-jdk default-jdk -y
+sudo apt install build-essential gdb openjdk-8-jdk default-jdk meson nasm -y
 
 sudo apt install curl -y
 curl -s "https://get.sdkman.io" | bash
